@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Node {
 
-	public string state;
 	public Vector3 worldPosition;
 
 	public int gCost;
@@ -15,17 +14,12 @@ public class Node {
 
 	public Node parent;
 
-	public Node(string _state, Vector3 _worldPos , int _gridX, int _gridY) {
+	public Node(bool _walkable, Vector3 _worldPos , int _gridX, int _gridY) {
 
-		state = _state;
+		walkable = _walkable;
 		worldPosition = _worldPos;
 		gridX = _gridX;
 		gridY = _gridY;
-		switch (state) {
-		case "walkable":
-			walkable = true;
-			return;
-		}
 			
 	}
 

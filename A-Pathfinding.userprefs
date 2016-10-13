@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Pathfinding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Blocks.cs">
     <Files>
-      <File FileName="Assets\_Scripts\Grid.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Grid.cs" Line="83" Column="82" />
       <File FileName="Assets\_Scripts\Pathfinding.cs" Line="44" Column="10" />
-      <File FileName="Assets\_Scripts\Node.cs" Line="27" Column="11" />
+      <File FileName="Assets\_Scripts\Node.cs" Line="22" Column="18" />
+      <File FileName="Assets\_Scripts\Blocks.cs" Line="7" Column="187" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
